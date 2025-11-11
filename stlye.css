@@ -1,15 +1,31 @@
     body {
-        background-color: rgba(104, 253, 161, 0.308);
+        background-image: url()
     }
-.from {
+.form {
     background-color: rgba(255, 255, 255, 0.829);
     font-style: normal;
     font-size: large;
     text-align: center;
     color: hsl(0, 0%, 0%);
-    margin: 0% ;
+    margin: 200px auto ;
+    max-width: 700px;
+    max-height: 1000px;
+    border: 5px solid #009e5f;
+    border-radius: 10px
 }
-.submit{    
-    margin: 0 ;
+    
+ /* 1. ทำให้ label สามารถกำหนดความกว้างได้ */
+.form_user label,
+.form_pass label {
+    display: inline-block; /* ทำให้กำหนดความกว้างได้ */
+    width: 100px;          /* <-- จุดสำคัญ! (ปรับเลขนี้ให้พอดี) */
+
+    /* (แนะนำให้เพิ่ม จะได้สวยขึ้น) */
+    text-align: right;     /* จัดชิดขวา */
+    margin-right: 10px;    /* เว้นวรรคจากช่องกรอก */
 }
-kuy{}
+
+/* 2. เพิ่มระยะห่างระหว่างแถว (แทน <br>) */
+.form_user {
+    margin-bottom: 15px;
+}
