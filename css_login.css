@@ -1,14 +1,22 @@
 body{
-background-color: rgb(161, 252, 196);
-
+background-image: url('https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/07/trendy-background-ideas-cover.jpg?w=435&h=435&crop=1');
+background-size: cover;          /* ทำให้รูปภาพครอบคลุมพื้นที่ทั้งหมด (ไม่ว่าจะย่อ/ขยายจอ) */
+background-position: center;     /* จัดตำแหน่งรูปภาพให้อยู่ตรงกลาง */
+background-repeat: no-repeat;    /* ไม่ให้รูปภาพซ้ำ */
+background-attachment: fixed;    /* (ทางเลือก) ทำให้รูปภาพอยู่กับที่เมื่อเลื่อนหน้าจอ */
+    
+color: rgb(0, 0, 0); 
+text-shadow: 2px 2px 4px rgba(133, 132, 132, 0.7); 
+min-height: 100vh;
 }
+
 .form{
     background-color: rgb(255, 255, 255);
     text-align: center;
     margin: 200px auto ;
     max-width: 700px;
     max-height: 1000px;
-     border: 5px solid #009e5f;
+    border: 5px solid #cc51b7;
     border-radius: 10px;
 }
 
