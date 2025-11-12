@@ -1,0 +1,99 @@
+
+.navbar {
+            display: flex; /* ใช้ Flexbox สำหรับการจัดเรียงแนวนอน */
+            align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+            background-color: #ffffff; /* พื้นหลังสีขาว */
+            padding: 8px 16px;
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12); /* เงาเหมือนแถบเมนูทั่วไป */
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /*
+        * 3. LOGO STYLES
+        */
+        .logo {
+            font-size: 24px;
+            font-weight: 900;
+            color: #04AA6D; /* สีเขียวหลักของ W3Schools */
+            text-decoration: none;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+
+        .schools-text {
+            font-size: 16px;
+            font-weight: bold;
+            color: #04AA6D;
+            margin-left: -5px; /* ชิดกับ W³ มากขึ้น */
+        }
+
+        /*
+        * 4. NAVIGATION LINKS
+        */
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* ใช้ Flexbox สำหรับรายการลิงก์ */
+            flex-grow: 1; /* ให้รายการลิงก์ใช้พื้นที่ส่วนใหญ่ */
+            gap: 10px; /* ระยะห่างระหว่างลิงก์ */
+        }
+
+        .nav-item {
+            padding: 10px 15px;
+            cursor: pointer;
+            color: #333;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            border-radius: 4px;
+        }
+
+        .nav-item:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown-arrow {
+            font-size: 10px;
+            margin-left: 5px;
+        }
+
+        /*
+        * 5. SEARCH BAR STYLES
+        */
+        .search-container {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc; /* กรอบสี่เหลี่ยม */
+            border-radius: 20px; /* ทำให้มุมโค้งมน */
+            overflow: hidden; /* ซ่อนส่วนเกิน */
+            margin-right: 15px;
+        }
+
+        .search-input {
+            border: none;
+            padding: 8px 12px;
+            outline: none; /* ลบเส้นกรอบเมื่อคลิก */
+            font-size: 15px;
+            width: 200px;
+        }
+
+        .search-button {
+            background-color: #04AA6D; /* สีเขียว */
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /*
+        * 6. KEBAB MENU (⋮)
+        */
+        .kebab-menu {
+            font-size: 24px;
+            padding: 0 10px;
+            color: #333;
+            cursor: pointer;
+        }
+    </style>

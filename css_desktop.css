@@ -1,0 +1,21 @@
+
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+          
+ }
+ .navbar {
+        background-color: antiquewhite;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 2px 2px  0;
+ }
+ .nav-links {
+            list-style: none;
+            margin: 10px ;
+            display: flex; 
+            flex-grow: 1; 
+            gap: 10px; 
+ }
